@@ -171,3 +171,9 @@ To run all tests and Rubocop:
 ```shell
 bundle exec rake
 ```
+
+If that doesn't work... try the following.
+
+```shell
+gem install companies-house-rest
+```
