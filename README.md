@@ -8,7 +8,7 @@ As of July 2016, this API is described by Companies House as a "beta service."
 More information about this free API can be found
 [on the Companies House API website](https://developer.companieshouse.gov.uk/api/docs/index.html).
 
-To interact the older [CompaniesHouse XML-based API](http://xmlgw.companieshouse.gov.uk/),
+To interact with the older [CompaniesHouse XML-based API](http://xmlgw.companieshouse.gov.uk/),
 see the gem [companies-house-gateway](https://github.com/gocardless/companies-house-gateway-ruby).
 (Monthly subscription [fees](http://xmlgw.companieshouse.gov.uk/CHDpriceList.shtml), and other fees, may apply.)
 
@@ -92,7 +92,7 @@ The endpoints currently implemented by the gem are:
 | --------------------------------------------------------------- | --------------------------------------- | ----------- |
 | `.company(company_number)`                                      | `GET /company/:company_number`          | Retrieves a company profile. |
 | `.officers(company_number)`                                     | `GET /company/:company_number/officers` | Retrieves a list of company officers. |
-| `.company_search(query, items_per_page: nil, start_index: nil)` | `GET /search/companies`                 | Retrieves a list of companies that match the given query. |
+| `.company_search(query)` | `GET /search/companies`                 | Retrieves a list of companies that match the given query. |
 
 ### .company
 
